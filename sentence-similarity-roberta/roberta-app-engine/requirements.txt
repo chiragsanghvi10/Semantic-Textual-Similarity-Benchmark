@@ -1,0 +1,10 @@
+flask==1.0.2
+gunicorn==19.9.0
+fairseq==0.8.0
+jsonpickle==1.2
+Flask==1.0.2
+google-cloud-storage==1.18.0
+cloudstorage==0.10.0
+oauth2client==3.0.0
+pip==19.2.3
+wget==3.2

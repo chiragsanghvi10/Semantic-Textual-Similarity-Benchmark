@@ -1,0 +1,14 @@
+runtime: python
+env: flex
+threadsafe: yes
+entrypoint: gunicorn -b :8080 main:app --timeout 90 --threads 20
+resources:
+  cpu: 6
+  memory_gb: 36
+  disk_size_gb: 100
+runtime_config:
+  python_version: 3
+readiness_check:
+  app_start_timeout_sec: 300
+env_variables:
+  CLOUD_STORAGE_BUCKET: salesken-models
