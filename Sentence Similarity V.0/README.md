@@ -6,7 +6,7 @@ The data set contains the following:
 ------------------------------------
   README.md 		  				this file
   MSRpar.txt		  				tab separated input file with sentence pairs
-  MSRpar.train-STSBenchmark.ipynb                       Python script to compare human judgements with USE & BERt
+  MSRpar.train-STSBenchmark.ipynb                       Python script to compare human judgements with USE & BERT
 
 
 Introduction of data set:
