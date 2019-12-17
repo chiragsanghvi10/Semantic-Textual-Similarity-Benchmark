@@ -1,0 +1,7 @@
+transformers==2.2.1
+tqdm
+torch>=1.0.1
+numpy
+scikit-learn
+scipy
+nltk
